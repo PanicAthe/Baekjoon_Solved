@@ -133,7 +133,7 @@
     <ResourceCompile Include="Solved_Bronze.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="15726_이칙연산.cpp" />
+    <ClCompile Include="23972_악마의 제안.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

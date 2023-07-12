@@ -25,7 +25,7 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="23972_악마의 제안.cpp">
+    <ClCompile Include="10250_ACM 호텔.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

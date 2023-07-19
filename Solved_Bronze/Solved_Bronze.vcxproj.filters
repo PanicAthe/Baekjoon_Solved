@@ -25,7 +25,7 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2884_알람 시계.cpp">
+    <ClCompile Include="13458_시험 감독.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

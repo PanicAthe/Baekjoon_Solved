@@ -133,7 +133,7 @@
     <ResourceCompile Include="Solved_Bronze.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1268_임시 반장 정하기.cpp" />
+    <ClCompile Include="1181_단어 정렬.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

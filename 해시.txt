@@ -1,0 +1,55 @@
+ map은 균형트리인 red black tree로 구현되있고 unordered_map은  해시 테이블로 구현되어 있다는 것입니다.
+
+ 
+
+어?? 그럼 일반적으로 unordered_map이 성능이 좋은거 아냐? 라고 묻는다면 당연히 yes입니다. 하지만 데이터가 많으면 많을수록 hash table의 성능은 리드미컬 하게 떨어진다.
+
+ 
+
+그 이유야 뭐 간단한데 균형트리는 이론상 무조건 균형을 맞추게 되어 있다. 그러나 hash table은 값이 많아지면 비둘기집의 원리에 의해서 필연적으로 해쉬충돌이 일어나고 그러면 한 해시버킷에 충돌적재가 일어나서 결국에 성능은 떨어지게 된다는 것이다. 그래서 실제 벤치마크 테스트를 해보면 자료가 늘어나면 늘어날수록 성능은 unordered_map이 딸린다. 여러분도 잘 생각해서 고르면된다. 데이터가 작다면unordered_map이,크다면 map이 유리합니다.
+
+ 
+
+- 멤버함수 종류
+
+ 
+
+- m.begin();
+
+- m.end();
+
+- m.rbegin();
+
+- m.rend();
+
+- m.clear();
+
+- m.count(k);
+
+- m.empty();
+
+- m.insert(k);     //k는 pair 객체입니다.
+
+- m.insert(iter, k);
+
+- m.erase(start, end);
+
+- m.find(k);
+
+- m2.swap(m1);
+
+- m.upper_bound(k);
+
+- m.lower_bound(k);
+
+- m.equal_range(k);    
+
+- m.value_comp();
+
+- m.key_comp();
+
+- m.size();
+
+- m.max_size();
+
+ 

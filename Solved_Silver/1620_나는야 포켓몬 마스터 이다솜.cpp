@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
-#include <algorithm>
+#include <unordered_map>
+
 using namespace std;
 
 int main() {
@@ -8,34 +9,31 @@ int main() {
     cin.tie(NULL);
     cout.tie(NULL);
 
-    int n, q;
-    string* arr;
-    string temp;
+    int n, m;
+    cin >> n >> m;
 
-    cin >> n >> q;
-    arr = new string[n];
-    for (int i = 0; i < n; i++) {
-        cin >> temp;
-        arr[i] = temp;
+    unordered_map<string, int> nameToNum; // 이름을 번호로 매핑
+    unordered_map<int, string> numToName; // 번호를 이름으로 매핑
+
+    for (int i = 1; i <= n; i++) {
+        string name;
+        cin >> name;
+        nameToNum[name] = i;
+        numToName[i] = name;
     }
 
-    for (int i = 0; i < q; i++) {
-        cin >> temp;
-        if (temp[0] >= '0' && temp[0] <= '9') {
-            int index = stoi(temp) - 1;
-            cout << arr[index] << "\n";
+    for (int i = 0; i < m; i++) {
+        string query;
+        cin >> query;
+
+        if (isdigit(query[0])) { // 숫자로 시작하면 이름 출력
+            int num = stoi(query);
+            cout << numToName[num] << "\n";
         }
-        else {
-            for (int j = 0; j < n; j++) { 
-                if (arr[j] == temp) {
-                    cout << j + 1 << "\n";
-                    break;
-                }
-            }
+        else { // 문자로 시작하면 번호 출력
+            cout << nameToNum[query] << "\n";
         }
     }
-
-    delete[] arr; // 메모리 해제
 
     return 0;
 }

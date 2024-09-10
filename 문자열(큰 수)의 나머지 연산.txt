@@ -1,7 +1,0 @@
-long long remainder(string str, int mod) {
-	int ret = 0;
-	for (int i = 0; i < str.length(); i++) {
-		ret = (ret * 10 + (int)str[i] - '0') % mod;
-	}
-	return ret;
-}

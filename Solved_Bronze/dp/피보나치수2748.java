@@ -1,4 +1,4 @@
-package Solved_Bronze;
+package Solved_Bronze.dp;
 import java.util.Scanner;
 
 public class 피보나치수2748 { //public class Main 으로 넣어야

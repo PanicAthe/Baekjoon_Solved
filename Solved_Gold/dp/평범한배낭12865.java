@@ -1,4 +1,4 @@
-package Solved_Gold;
+package Solved_Gold.dp;
 
 import java.util.Scanner;
 

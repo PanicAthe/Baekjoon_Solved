@@ -1,4 +1,4 @@
-package Solved_Bronze;
+package Solved_Bronze.dp;
 
 import java.util.Scanner;
 

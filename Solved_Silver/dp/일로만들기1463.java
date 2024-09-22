@@ -1,4 +1,4 @@
-package Solved_Silver;
+package Solved_Silver.dp;
 
 import java.util.*;
 

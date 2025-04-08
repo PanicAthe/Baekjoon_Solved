@@ -52,17 +52,20 @@
     "Application.피보나치함수1003.executor": "Run",
     "Application.회의실배정1931.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "<알 수 없음>",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/Baekjoon_Solved",
+    "last_opened_file_path": "C:/신한DS5/work/Baekjoon_Solved",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.ATM11399.executor": "Run",
+    "애플리케이션.Main.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -72,7 +75,7 @@
       <recent name="C:\Users\user\Desktop\Baekjoon_Solved\Solved_Silver\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solved_Silver.greedy.잃어버린괄호1541">
+  <component name="RunManager" selected="애플리케이션.Main">
     <configuration name="잃어버린괄호1541" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="잃어버린괄호1541" />
       <module name="Baekjoon_Solved" />
@@ -106,15 +109,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solved_Silver.greedy.잃어버린괄호1541" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solved_Silver.greedy.잃어버린괄호1541" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Baekjoon_Solved" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Solved_Silver.greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,19 +131,16 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solved_Silver.greedy.잃어버린괄호1541" />
-        <item itemvalue="Application.잃어버린괄호1541" />
-        <item itemvalue="Application.회의실배정1931" />
-        <item itemvalue="Application.동전ZERO11047" />
-        <item itemvalue="Application.ATM11399" />
+        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.ATM11399" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
@@ -163,6 +157,7 @@
       <workItem from="1726113099015" duration="20498000" />
       <workItem from="1726977229907" duration="7626000" />
       <workItem from="1727436447097" duration="1920000" />
+      <workItem from="1744081485143" duration="3567000" />
     </task>
     <servers />
   </component>
@@ -216,6 +211,11 @@
           <url>file://$PROJECT_DIR$/Solved_Silver/dp/설탕배달2839.java</url>
           <line>21</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Solved_Silver/deque/덱10866.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
